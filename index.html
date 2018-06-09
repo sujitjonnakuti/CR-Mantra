@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+  <title>CRMantra Exercise</title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.17/angular.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body ng-controller="appCtrl">
+  <input type="text" ng-model="query" placeholder="Search" />
+  <table class="main">
+    <tbody>
+      <tr ng-repeat="p in parkData | filter: query | orderBy:sortType"  ng-style="p">
+        <td ng-click="toggleSwitch = !toggleSwitch" class="main">
+          {{p.name}}
+          <table ng-hide="toggleSwitch" class="sub">
+            <tr class="sub">
+              <td class="sub">Area</td>
+              <td class="sub">{{p.details.Area}}</td>
+            </tr>
+            <tr class="sub">
+              <td class="sub">Location</td>
+              <td class="sub">{{p.details.Location}}</td>
+            </tr>
+            <tr class="sub">
+              <td class="sub">Year of Formation</td>
+              <td class="sub">{{p.details.YearofFormation}}</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>

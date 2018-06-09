@@ -1,0 +1,76 @@
+{
+  "Parks": [
+    {
+      "name": "Big Bend",
+      "background-color": "#a3a1b0",
+      "details": {
+        "Area": "1,252 square miles (3,242 sq km)",
+        "Location": "Texas",
+        "YearofFormation": "1944"
+      }
+    },
+    {
+      "name": "Denali",
+      "background-color": "#7ebb19",
+      "details": {
+        "Area": "7,408 square miles (19,186 sq km)",
+        "Location": "Alaska",
+        "YearofFormation": "1917"
+      }
+    },
+    {
+      "name": "Grand Canyon",
+      "background-color": "#c3ae20",
+      "details": {
+        "Area": "1,902 square miles (4,927 sq km)",
+        "Location": "Arizona",
+        "YearofFormation": "1919"
+      }
+    },
+    {
+      "name": "Kenai Fjords",
+      "background-color": "#19bba7",
+      "details": {
+        "Area": "1,047 square miles (2,711 sq km)",
+        "Location": "Alaska",
+        "YearofFormation": "1980"
+      }
+    },
+    {
+      "name": "Olympic",
+      "background-color": "#b0aaa1",
+      "details": {
+        "Area": "1,442 square miles (3,734 sq km)",
+        "Location": "Washington",
+        "YearofFormation": "1938"
+      }
+    },
+    {
+      "name": "Yellowstone",
+      "background-color": "#bba719",
+      "details": {
+        "Area": "3,468 square miles (8,983 sq km)",
+        "Location": "Wyoming, Montana, Idaho",
+        "YearofFormation": "1872"
+      }
+    },
+    {
+      "name": "Yosemite",
+      "background-color": "#ff7f00",
+      "details": {
+        "Area": "1,189 square miles (3,080 sq km)",
+        "Location": "California",
+        "YearofFormation": "1890"
+      }
+    },
+    {
+      "name": "Wrangell-St. Elias",
+      "background-color": "#ff7f00",
+      "details": {
+        "Area": "13,00 square miles (33,683 sq km)",
+        "Location": "Alaska",
+        "YearofFormation": "1980"
+      }
+    }
+  ]
+}

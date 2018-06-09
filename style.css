@@ -1,0 +1,28 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  background-color: #d9d9d9;
+}
+
+.main {
+  border: 1px solid black;
+}
+
+.sub {
+  border : 1px solid #d9d9d9;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+td {
+  cursor: pointer;
+  padding: 10px;
+}
